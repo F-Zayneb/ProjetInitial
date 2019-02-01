@@ -22,9 +22,9 @@ void loop(){
   for( i=0; i<360; i+50){
     Serial.println( i );
     digitalWrite( pinStep, HIGH );
-    delay(2);
+    delay(3);
     digitalWrite( pinStep, LOW );
-    delay(2);
+    delay(3);
   } 
   
   // Changer de direction
